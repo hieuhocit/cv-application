@@ -1,0 +1,24 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-background-color: #f5f2f2;
+  --resume-font: serif;
+  
+  --accent-color: #0e374e;
+  --header-resume-color: #ffffff;
+  --section-resume-bg: #0e374e12;
+}
+
+body {
+  background-color: var(--primary-background-color);
+}
+
+.app {
+  display: flex;
+  padding: 2rem;
+  gap: 1.5rem;
+}

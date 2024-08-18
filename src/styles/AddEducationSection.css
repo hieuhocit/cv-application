@@ -1,0 +1,52 @@
+.education-container {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.education-header {
+  padding: 1rem 1.2rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.education-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.education-body > .education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.education-bottom {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.education-bottom > button {
+  border: 4px solid var(--primary-background-color);
+  background-color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  display: flex;
+  gap: 0.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.education-bottom > button:active {
+  transform: scale(.95);
+}

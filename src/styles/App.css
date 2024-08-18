@@ -1,0 +1,22 @@
+.edit-container {
+  width: 40%;
+  display: flex;
+  gap: 1.5rem;
+  min-width: 300px;
+}
+
+.cv-container {
+  min-width: 650px;
+  flex: 1;
+  background-color: #fff;
+  min-height: 200vh;
+  overflow: hidden;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+  .edit-container {
+    width: 30%;
+    flex-direction: column;
+  }
+}
